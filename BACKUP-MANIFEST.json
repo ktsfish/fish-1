@@ -1,0 +1,306 @@
+{
+  "application": "BIM Design · Tính toán chỉ tiêu quy hoạch công trình",
+  "sites_project_id": "appgprj_6ac8472fc6608191be5324f3c978762e",
+  "sites_version": 28,
+  "sites_saved_version_id": "appgprj_6ac8472fc6608191be5324f3c978762e~appgver_5366084504788191a532138945ebb96e",
+  "source_commit": "e9cc98de44f64b769006d401a4c247df0a0bf4da",
+  "source_tree": "e26754f3a6bb419af30be09c1fcae9129400f486",
+  "recovery_tag": "v28-before-nfa",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha1": "c2658d7d1b31848c3b71960543cb0368e56cd4c7",
+      "bytes": 14,
+      "sha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "git_blob_sha1": "50a65edcbad29d05f81e486041bf351b527a8659",
+      "bytes": 106,
+      "sha256": "a7c317dfac0a5460c61ca9cbf33fb8d8aa16f829880c88498594eebdcbee0829"
+    },
+    {
+      "path": "CUSTOM_DXF_CHANGELOG.md",
+      "git_blob_sha1": "f3c6407cdb34c01e06acccff2617ebe2c3d997f7",
+      "bytes": 8077,
+      "sha256": "c967a9f865fe8183f0a49eed96e0bd6e3f91a70805db08b666cb4488aceb2871"
+    },
+    {
+      "path": "MASSING_UI_CHANGELOG.md",
+      "git_blob_sha1": "15220f85bb2f13897ba0487bda1ba25c7a4a0c34",
+      "bytes": 6663,
+      "sha256": "9f7dd1726e6af61df85ddbff40d0e094d708a0b8eccbef11df98aad100888b3c"
+    },
+    {
+      "path": "ZIGZAG_SETBACK_FIX.md",
+      "git_blob_sha1": "365cdf14f3abbe3602b01e59634f6534e60fe1c9",
+      "bytes": 4613,
+      "sha256": "b5fb06c8b5928e0c58e526822b83bd9c165eb8e719d981cac7841339b0eda805"
+    },
+    {
+      "path": "dist/app.js",
+      "git_blob_sha1": "b5c2aaeb5d772626f6f75e7ff746a56bd3ab2c58",
+      "bytes": 19142,
+      "sha256": "c5274d9d5018e8bc1a99c606abd7e069ee21b51df1d522434eb4b5f6cac025dc"
+    },
+    {
+      "path": "dist/bim-logo.png",
+      "git_blob_sha1": "9cf1900ddbec003921f36d1e87a790ac88879668",
+      "bytes": 8182,
+      "sha256": "ae748fed7d340da14931138a597ce1720fef73fd6e022b587d30af7e8692a59e"
+    },
+    {
+      "path": "dist/custom-dxf-geometry.js",
+      "git_blob_sha1": "3c61fc78e813b30bea5ef0af482e6fc0b23459da",
+      "bytes": 12774,
+      "sha256": "4908e634f1edd1ed9aebd10e7f32aedc7dccd669e81a3e61a79a7f43d2a54d24"
+    },
+    {
+      "path": "dist/custom-dxf.css",
+      "git_blob_sha1": "08a457e75fa84a191b327d01559b8a2156ffe1d8",
+      "bytes": 4140,
+      "sha256": "49381f06fe08385606539c52306faf9364169cf098a453af3b3a095fc0012be0"
+    },
+    {
+      "path": "dist/custom-dxf.js",
+      "git_blob_sha1": "4a0e63d2eb8d8c1a4a1ca709ecfd73019ab2a05c",
+      "bytes": 30487,
+      "sha256": "0ac8719fc750a6aa5aadc59a6f17b8c7e76eab02111a08bf1e2dbabd3f55a352"
+    },
+    {
+      "path": "dist/data.js",
+      "git_blob_sha1": "f16ea73664ae7c51eb42f428b1edefb00cd1f203",
+      "bytes": 1100,
+      "sha256": "e83060cbb36d749db31764fe1e708ed3c55ced9d7c2aa9a0a8f418046f0eb3d3"
+    },
+    {
+      "path": "dist/engine.js",
+      "git_blob_sha1": "0355bb7a8ae7c2645d2f640c24cfdbe92080af4e",
+      "bytes": 2844,
+      "sha256": "3f9c2b7120c683001bfb78ceadbecc9cdd789717d5b1a1f4087b3298b2f6ad4f"
+    },
+    {
+      "path": "dist/export-pdf.js",
+      "git_blob_sha1": "5ecc882b6e0d1d4a502c5a21dbe46e5efd4f49b6",
+      "bytes": 14222,
+      "sha256": "a677f18ba914549d206baeb78de3c2e0f09fd5d5eea2990cebacf3e3168136c8"
+    },
+    {
+      "path": "dist/geometry.js",
+      "git_blob_sha1": "4baa4fb9f015a325471e58881cd2dec1c1223375",
+      "bytes": 3532,
+      "sha256": "05922dac0d9e6670f04fed9b2e6bfc0cf28f7b407faf07a213afc6b6aa061284"
+    },
+    {
+      "path": "dist/illustration.js",
+      "git_blob_sha1": "46fa5ae97e15bb1656fadd456ff46a7d88863348",
+      "bytes": 8167,
+      "sha256": "fd0954f4ae1c5365c87ab001ec46b9bad4b084d858a83bc3bc8b092310b37113"
+    },
+    {
+      "path": "dist/index.html",
+      "git_blob_sha1": "a2fd62ac34d9915ea5758f1ff398372c1760a6b6",
+      "bytes": 6577,
+      "sha256": "786c781951aefb3a21113de4c5ee6d7c52c5af64a711b2b214192a950e65526f"
+    },
+    {
+      "path": "dist/legal-status.css",
+      "git_blob_sha1": "9f63f9145df173d452efba90fa77f16c3277fbac",
+      "bytes": 654,
+      "sha256": "28b8ef68c3740793ca8ba8c2596a2bd4ef5722c2f8596f35e6bd3aacad9f681b"
+    },
+    {
+      "path": "dist/legal-status.js",
+      "git_blob_sha1": "910bfa6267d90710e2e80823d50ec507b7a2508b",
+      "bytes": 1298,
+      "sha256": "fa8de65789550148b6c055c9d9a5b60f3214bd38ec815ee7626f854a1acb7346"
+    },
+    {
+      "path": "dist/massing-drawing.js",
+      "git_blob_sha1": "9790e40e22af67136c612247539ccfe0fa6c6b29",
+      "bytes": 12764,
+      "sha256": "dc7e00691b12a2f4453f843e7fc2f9ab3cd9b595f6374e127805a3e53f8c30d7"
+    },
+    {
+      "path": "dist/massing-model.js",
+      "git_blob_sha1": "a7c6dc8e5f269bd3fc700cfb47df65f64132d0f4",
+      "bytes": 5001,
+      "sha256": "95832a1224cece93adefb9eaa1448283debc727690f23c521cd3a4523428c379"
+    },
+    {
+      "path": "dist/massing-viewer.mjs",
+      "git_blob_sha1": "a0bd70b362d1b742732f136bbfb94ea408b23102",
+      "bytes": 8286,
+      "sha256": "07ff0ee79b40d707cdc817ecddfc4f9d73b9b20ed0702cce805397183eab836b"
+    },
+    {
+      "path": "dist/massing.css",
+      "git_blob_sha1": "37c8ceb47d8eb93cf5792ab55f9e18b9d6df9a82",
+      "bytes": 1692,
+      "sha256": "d0a85dd941639b60616426f6526f8bbe26ea621b58e65d3dbb4cabe52f2dd3f7"
+    },
+    {
+      "path": "dist/massing.js",
+      "git_blob_sha1": "eb0c99eabb04f14867cfa56d0d2fef99da5a08b7",
+      "bytes": 24142,
+      "sha256": "bb316c89d645ae515bee52ba2cac69649302b2c0652e9916688747b53af8db65"
+    },
+    {
+      "path": "dist/report.css",
+      "git_blob_sha1": "4563612b022d606b0401faefdc6476920671f2da",
+      "bytes": 3423,
+      "sha256": "f57eddd86a8c534e87567822dd2b187b6906fb23ea3bac65aa2b561d24a150db"
+    },
+    {
+      "path": "dist/vendor/OrbitControls.mjs",
+      "git_blob_sha1": "4408614bd0cca5c756c4322af681786587df0c87",
+      "bytes": 38720,
+      "sha256": "3dcda70b3a5cc3f14a7e3fecb60fcf8f6967c3ad133f28ebc8445b188f5fecac"
+    },
+    {
+      "path": "dist/vendor/dxf-parser.LICENSE",
+      "git_blob_sha1": "d2fc1b36a5b6ac5b7da45854ad51c828b1b92ba3",
+      "bytes": 1111,
+      "sha256": "56eb37102e6e49ce363e8021f017fe0a6de61d3705273bed307110a3386cb42f"
+    },
+    {
+      "path": "dist/vendor/dxf-parser.js",
+      "git_blob_sha1": "661e218987ca507383e08632452d067de7594f38",
+      "bytes": 25384,
+      "sha256": "445dd62529369a4ef32520d8b6232031ea8af01f1029b08b2d876ff6b7807b7b"
+    },
+    {
+      "path": "dist/vendor/polygon-clipping.LICENSE.md",
+      "git_blob_sha1": "0c7f4283a4131ec69d72bc35121dde223e5e9992",
+      "bytes": 1327,
+      "sha256": "864ae9e4ed75e1571a3bcf5dc9070264213445b32e7e2af5bf60eba46fb656d0"
+    },
+    {
+      "path": "dist/vendor/polygon-clipping.js",
+      "git_blob_sha1": "f3a6f7dde586ea0a44fa95ae223ca8fb3ca1e604",
+      "bytes": 29106,
+      "sha256": "7f8619e84a86ce8dd400c9b50430e9c8cf8f26027b19eeb479f109f5c1a9d688"
+    },
+    {
+      "path": "dist/vendor/three.LICENSE",
+      "git_blob_sha1": "cf781430404b0ae0ba7d8dea3457a3515dd7c9b9",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "dist/vendor/three.core.min.mjs",
+      "git_blob_sha1": "70c40977daa0f6e1e312c6b58e9bfe49cb5a87a4",
+      "bytes": 381124,
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+    },
+    {
+      "path": "dist/vendor/three.module.min.mjs",
+      "git_blob_sha1": "ef1df588bec186053343e9296392cd95500c5964",
+      "bytes": 338910,
+      "sha256": "812d83ba87c432983b73e80bf6ca6064a28743f495b6da2e99733c27192540c5"
+    },
+    {
+      "path": "dist/workspace.css",
+      "git_blob_sha1": "437e24aa75f20aa868e33b7d9b963a503940579a",
+      "bytes": 17605,
+      "sha256": "b29d31074cbba86aa8653da8730de09ad4558326539c603016decda7e2663012"
+    },
+    {
+      "path": "dist/workspace.js",
+      "git_blob_sha1": "2b5c7d7924df57d51204d165ec6b2b9cba33916e",
+      "bytes": 22037,
+      "sha256": "ede4448a21ecc9849e1f4e85e0b92e7c3691ef62b59f445a2a1c241dfe5a58f4"
+    },
+    {
+      "path": "package-lock.json",
+      "git_blob_sha1": "e8414a510d53b0d58edfda2c799fd24e317b7a4d",
+      "bytes": 18938,
+      "sha256": "36437a71a4faf65e7f3ba91aedb002b303eae29f3a7a57d2301588529ee33ec6"
+    },
+    {
+      "path": "package.json",
+      "git_blob_sha1": "d506058ab4b47dd54470483fd2db8caee15dc584",
+      "bytes": 262,
+      "sha256": "15dd6d7d13b80bfff179dadbecd7a4b56f37186765acba1ca63acfb0f3e6fdc6"
+    },
+    {
+      "path": "qa/far-test-results.txt",
+      "git_blob_sha1": "1a1cf94d8bab00acec553b9812e053a42566c8e5",
+      "bytes": 5244,
+      "sha256": "3311fe3a7385009d0a38abee7d351aa416563b992bc1bf0a6267e77c12bcd0ea"
+    },
+    {
+      "path": "qa/far-workspace.jpg",
+      "git_blob_sha1": "0f5d74ee5d9211651a67a7990bd529d9e54a137f",
+      "bytes": 90012,
+      "sha256": "2f9a4e3ccdc0a62363f756c93d91b0b80ace9d18789c40d001ebe4a1c6e6375a"
+    },
+    {
+      "path": "qa/zigzag-oracle-results.json",
+      "git_blob_sha1": "c7e5c213ea2fd3b1fd8181d3d613d8cf9aaee2d6",
+      "bytes": 330,
+      "sha256": "0bfbb57d0af66b823f27b919ef42efcd3a57a454d7e5b826713fcf3ca5d6bd24"
+    },
+    {
+      "path": "qa/zigzag-test-results.txt",
+      "git_blob_sha1": "64e4719a491481e80eb1ca3b31200b341ecc6147",
+      "bytes": 6349,
+      "sha256": "f3961997063f69c58806a98bf65b69b4263f257818e6a79411bf77e6a1cf184e"
+    },
+    {
+      "path": "tests/custom-dxf.test.cjs",
+      "git_blob_sha1": "993a374e0226ae390b9980002a436d751018e80a",
+      "bytes": 8911,
+      "sha256": "a780d6c11e51b5f7d7bec4165e603fd9f2900edf29a80d6c081ae28359b3dd17"
+    },
+    {
+      "path": "tests/custom-ui.test.cjs",
+      "git_blob_sha1": "2c6d3fe1ad8d0ee43ed33848736e9fa96fa9d4d3",
+      "bytes": 14595,
+      "sha256": "2519eaffb8deb17fdc4b10231a0dfdb85c0ace7437462a11c1f46bd70cb3c82f"
+    },
+    {
+      "path": "tests/fixtures/setback-miter-reference.json",
+      "git_blob_sha1": "703e4b868754ce882a6f4a0cbb187655dcead345",
+      "bytes": 495283,
+      "sha256": "7511c661061e587ed48624b2116f3749cd2cea27f78ea14d4062a9c20f46fc96"
+    },
+    {
+      "path": "tests/fixtures/zigzag-regression.dxf",
+      "git_blob_sha1": "f7f4db9a7aeb3222699bb9b7f1fbd50ef3a92600",
+      "bytes": 268,
+      "sha256": "f8bf1cd0fae19c4429bade894f3f767a8053ca8fa89ee3577099c76eee3b1cde"
+    },
+    {
+      "path": "tests/geometry.test.cjs",
+      "git_blob_sha1": "9b59b30a5be41b5749b95e069023b8825b0fe85f",
+      "bytes": 6998,
+      "sha256": "adbb8c1ef6f2848a39a8b5bfa485d7721de179aeee4052947f1ee336971e3ac8"
+    },
+    {
+      "path": "tests/workspace.test.cjs",
+      "git_blob_sha1": "68d04417d7aa67923c71a73f2c604864dc75ed95",
+      "bytes": 20454,
+      "sha256": "2d4a3d013a4c158b4df118d5367b5c55675b52a37c1cd08d47ae2f5f5c228816"
+    }
+  ],
+  "artifacts": {
+    "BIM-Design-v28-before-nfa.bundle": {
+      "bytes": 599912,
+      "sha256": "7a53973ebc0f881d9866803969a34dc8b36327eab812d58281824ca09357f982"
+    },
+    "BIM-Design-v28-source.zip": {
+      "bytes": 516531,
+      "sha256": "97d4659cf2ad649984d43fbf6d28e11c06b1e76aa640deab4393b6fa8a74b329"
+    }
+  },
+  "verification": {
+    "source_file_count": 46,
+    "zip_all_git_blobs_match": true,
+    "bundle_verify": "passed",
+    "clean_clone_from_bundle": "passed",
+    "restored_commit_and_tree_match": "passed",
+    "git_fsck_full": "passed"
+  },
+  "scope": "Code, tracked assets, tests, reports and Git history through v28. Browser-session DXF files and inputs are not included. No NFA implementation is added."
+}
